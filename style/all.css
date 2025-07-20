@@ -70,7 +70,7 @@ table {
   --neutral-900:#212529;
   --Danger-100:#FCF1F1;
   --Danger-200:#EBA7A7;
-  --Danger-300:#E9ECEF;
+  --Danger-300:#D74F4F;
   --Success-100:#EFF8F4;
   --Success-200:#9AD1BA;
   --Success-300:#36A375;
@@ -114,6 +114,9 @@ a{
     margin: 0 auto;
 }
 
+.gap-8{
+    gap: 8px; /* 控制元素間距 */
+}
 .col-1{
     padding-left: 12px;
     padding-right: 12px;
@@ -246,6 +249,10 @@ h6{
     font-size: 14px;
 }
 
+.text-danger{
+    color: var(--Danger-300);
+}
+
 .text-primary-400{
     color: var(--primary-400);
 }
@@ -257,8 +264,20 @@ h6{
     color: var(--neutral-300);
 }
 
+.text-neutral-500{
+    color: var(--neutral-500);
+}
+
 .text-neutral-600{
     color: var(--neutral-600);
+}
+
+.text-neutral-900{
+    color: var(--neutral-900);
+}
+
+.text-primary-400{
+    color: var(--primary-400);
 }
 
 .bg-neutral-100{
@@ -407,6 +426,10 @@ h6{
 .btn-dark{
     background: var(--neutral-900);
     color: var(--neutral-0);
+}
+
+.btn-light{
+    border: 1px solid var(--neutral-900);
 }
 
 .border-top{

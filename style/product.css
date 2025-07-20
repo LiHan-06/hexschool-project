@@ -1,0 +1,103 @@
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo img {
+  height: 40px; /* 根據你想要的大小自行調整 */
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px; /* 控制兩個連結的間距 */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 12px 0;
+}
+
+.footer {
+  border-top: 1px solid #DEE2E6;
+  text-align: center;
+  color: #666; /* 可依需求調整深淺 */
+  padding: 16px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/*產品圖片*/
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.product-col{
+    width: calc(100% /12 *6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+/*文字描述*/
+.drl-price{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--neutral-500);
+    padding-left: 8px;
+}
+/*產品顏色*/
+.product-color{
+    width: 64px;
+    text-align: center;
+    color: var(--neutral-600);
+}
+
+/*產品尺寸*/
+.btn-product-size{
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
+.btn-product-size.active,
+.btn-product-size:hover{
+    border-color: var(--neutral-900);
+}
+
+/*收藏與預約*/
+.product-action{
+    display: flex;
+    gap: 8px;
+}
+
+.product-action .btn{
+    width: 50%;
+}
+
+.product-action .bi{
+    padding-right: 8px;
+}
+
+/*產品資訊*/
+.product-info-title{
+    font-weight: 500;
+}
+
+.product-info-item p{
+    color: var(--neutral-600);
+}
+
+.product-info-item{
+    border-bottom: 1px solid var(--neutral-300);
+}

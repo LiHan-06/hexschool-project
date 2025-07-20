@@ -253,6 +253,13 @@ h6{
 .text-danger{
     color: var(--Danger-300);
 }
+.trct-neutral-300{
+    color: var(--neutral-300);
+}
+
+.text-neutral-600{
+    color: var(--neutral-600);
+}
 
 .bg-neutral-100{
     background-color: var(--neutral-100);
@@ -365,6 +372,10 @@ h6{
     padding-left: 312px;
 }
 
+.m0-a{
+    margin: 0 auto;
+}
+
 /* 元件 */
 .breadcrumb-item + .breadcrumb-item::before{
     content:'/';
@@ -396,4 +407,8 @@ h6{
 .btn-dark{
     background: var(--neutral-900);
     color: var(--neutral-0);
+}
+
+.border-top{
+    border-top: 1px solid var(--neutral-300);
 }

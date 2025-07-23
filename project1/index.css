@@ -1,0 +1,206 @@
+/*引入字體*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* 顏色 */
+:root{
+  --primary-100:#F5FEE7;
+  --primary-200:#e8fec5;
+  --primary-300:#C0FA73;
+  --primary-400:#57A203;
+  --primary-500:#477A11;
+  --neutral-0:#ffffff;
+  --neutral-100:#F8F9FA;
+  --neutral-200:#E9ECEF;
+  --neutral-300:#DEE2E6;
+  --neutral-400:#CED4DA;
+  --neutral-500:#ADB5BD;
+  --neutral-600:#6C757D;
+  --neutral-700:#495057;
+  --neutral-800:#343A40;
+  --neutral-900:#212529;
+  --Danger-100:#FCF1F1;
+  --Danger-200:#EBA7A7;
+  --Danger-300:#D74F4F;
+  --Success-100:#EFF8F4;
+  --Success-200:#9AD1BA;
+  --Success-300:#36A375;
+  --Warning-100:#FEF6EC;
+  --Warning-200:#F9C588;
+  --Warning3-300:#F38B12;
+  --Info-100:#EEF5FC;
+  --Info-200:#97C3ED;
+  --Info-300:#3087DB;
+}
+
+/*標籤基本樣式*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    color: var(--primary-400);
+    text-underline-offset: 4px;
+    display: block;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(--neutral-900);
+}
+
+/*通用樣式*/
+
+.container{
+    width: 856px;
+    margin: 0 auto;
+}
+
+.h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.text-sm{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-neutral-600{
+    color: var(--neutral-600);
+}
+
+.text-primary-400{
+    color: var(--primary-400);
+}
+
+.bg-primary-100{
+    background-color: var(--primary-100);
+}
+
+.bg-neutral-100{
+    background-color: var(--neutral-100);
+}
+
+.p-32{
+    padding: 32px;
+}
+
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pb-48{
+    padding-bottom: 48px;
+}
+
+.pe-8{
+    padding-right: 8px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+/*page*/
+.header{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-repeat: no-repeat;/*背景圖不重複*/
+    background-size: cover; /*背景圖覆蓋整個區域*/
+    background-position: center; /*背景圖置中*/
+    padding: 152px 0;
+    text-align: center;
+}
+.eng-title{
+    font-size: 28px;
+}
+
+.quote{
+    border-radius: 12px;
+    text-align: center;
+}
+
+.intro img{
+    width: 1076px;
+    margin-right: -110px;
+    margin-left: -110px;
+}
+
+.section-liend{
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+.history-desc{
+    border-left: 1px solid var(--neutral-900);
+    padding-left: 8px;
+}
+
+.history-list{
+    list-style-type: disc;
+    padding-left: 24px;
+}
+
+.concept-item{
+    padding-left: 12px;
+    border-left: 3px solid var(--neutral-300);
+}
+
+.bi{
+    padding-right: 8px;
+    vertical-align: bottom;/*底部對齊*/
+}
+
+.footer{
+    text-align: center;
+}
